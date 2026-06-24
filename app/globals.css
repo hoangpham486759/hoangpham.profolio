@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* Custom Cyberpunk & High-Tech Variables & Animations */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+  
+  body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/* Custom Cyberpunk Utilities */
+@utility neon-text-cyan {
+  text-shadow: 0 0 5px rgba(0, 240, 255, 0.5), 0 0 15px rgba(0, 240, 255, 0.3);
+}
+
+@utility neon-text-magenta {
+  text-shadow: 0 0 5px rgba(255, 0, 127, 0.5), 0 0 15px rgba(255, 0, 127, 0.3);
+}
+
+@utility neon-border-cyan {
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.25), inset 0 0 10px rgba(0, 240, 255, 0.15);
+  border-color: rgba(0, 240, 255, 0.6);
+}
+
+@utility neon-border-magenta {
+  box-shadow: 0 0 10px rgba(255, 0, 127, 0.25), inset 0 0 10px rgba(255, 0, 127, 0.15);
+  border-color: rgba(255, 0, 127, 0.6);
+}
+
+@utility scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.12) 50%
+  ), linear-gradient(
+    90deg, 
+    rgba(255, 0, 0, 0.03), 
+    rgba(0, 255, 0, 0.01), 
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 4px, 3px 100%;
+}
+
+@utility grid-bg {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 240, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 255, 0.04) 1px, transparent 1px);
+}
+
+@utility grid-bg-light {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+}
+
+/* Glitch Animation Keyframes */
+@keyframes cyber-glitch {
+  0% {
+    clip-path: inset(40% 0 61% 0);
+  }
+  20% {
+    clip-path: inset(92% 0 1% 0);
+  }
+  40% {
+    clip-path: inset(25% 0 58% 0);
+  }
+  60% {
+    clip-path: inset(80% 0 5% 0);
+  }
+  80% {
+    clip-path: inset(11% 0 81% 0);
+  }
+  100% {
+    clip-path: inset(50% 0 30% 0);
+  }
+}
+
+.animate-cyber-glitch-1 {
+  animation: cyber-glitch 4s infinite linear alternate-reverse;
+}
+
+.animate-cyber-glitch-2 {
+  animation: cyber-glitch 2.5s infinite linear alternate-reverse;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+.light ::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #00f0ff;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff007f;
+}
+
+/* Interactive Grid Dots Accent */
+.cyber-dots {
+  background-image: radial-gradient(rgba(0, 240, 255, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+.light .cyber-dots {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Sound Matrix grid/matrix lines animations */
+@keyframes matrix-move {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+.animate-matrix {
+  animation: matrix-move 20s linear infinite;
+}
