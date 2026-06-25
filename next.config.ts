@@ -8,10 +8,10 @@ const nextConfig: NextConfig = {
 	typescript: {
 		ignoreBuildErrors: true,
 	},
+	basePath: "/hoangpham.profolio",
 	// Allow local images from the public folder via root-relative paths like /images/foo.png
 	// and remote placeholders such as picsum.photos.
 	images: {
-		unoptimized: true,
 		remotePatterns: [
 			{
 				protocol: "https",
