@@ -163,7 +163,7 @@ export default function Hero() {
 
             {/* Resume Export with neat visual feedback */}
             <a
-              href="/Phạm_Nguyễn_Huy_Hoàng_cv.pdf"
+              href={`${process.env.__NEXT_ROUTER_BASEPATH || ''}/Phạm_Nguyễn_Huy_Hoàng_cv.pdf`}
               download
               className="flex items-center gap-2 font-mono text-xs text-neutral-400 hover:text-cyan-400 transition-colors ml-2 py-2"
             >
