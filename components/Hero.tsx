@@ -163,11 +163,8 @@ export default function Hero() {
 
             {/* Resume Export with neat visual feedback */}
             <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('Downloading Phạm Nguyễn Huy Hoàng - CV.pdf');
-              }}
+              href="/Phạm_Nguyễn_Huy_Hoàng_cv.pdf"
+              download
               className="flex items-center gap-2 font-mono text-xs text-neutral-400 hover:text-cyan-400 transition-colors ml-2 py-2"
             >
               <Download className="w-3.5 h-3.5" />
