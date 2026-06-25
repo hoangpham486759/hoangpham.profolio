@@ -107,7 +107,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "RADANHADAT - PROPTECH PLATFORM",
           desc: "A real estate listing platform for posting, searching, and managing property listings for buying and renting. Built planning map monorepo architecture, reusable component systems, analytics tracking, AI-powered listing analysis, VNPT ePay payments, financial calculators, and performance-focused frontend improvements.",
           tech: ["Vue.js", "Nuxt", "React", "TypeScript", "Pinia", "Redux Toolkit", "Tailwind CSS", "Shadcn UI", "ChartJS", "Sentry"],
-          image: "public/projects/radanhadat.png",
+          image: "/projects/radanhadat.png",
           demo: "#",
           github: "#"
         },
@@ -116,7 +116,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "BUHO - RESTAURANT POS SYSTEM",
           desc: "A restaurant management and POS system for order management, table scheduling, payment processing, delivery workflows, and business performance tracking. Delivered reusable UI components, Socket.IO real-time features, WhatsApp messaging, push notifications, multilingual support, Stripe payments, Google Maps integration, and frontend security improvements.",
           tech: ["Vue 2", "Vue 3", "Vuex", "JavaScript", "SCSS", "Socket.IO", "Stripe", "Google Maps", "ChartJS", "LogRocket"],
-          image: "public/projects/buho.png",
+          image: "/projects/buho.png",
           demo: "#",
           github: "#"
         },
@@ -125,7 +125,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "TESTMASTER - TEST PREP APPS",
           desc: "A language proficiency test preparation and test management platform. Built responsive interfaces from Figma designs, collaborated on exam creation and management features, and supported maintenance, bug fixing, and feature enhancements for stable test-taking workflows.",
           tech: ["PHP", "Laravel", "JavaScript", "HTML5", "SCSS", "Bootstrap", "Ajax", "JQuery", "MySQL"],
-          image: "public/projects/testmaster.png",
+          image: "/projects/testmaster.png",
           demo: "#",
           github: "#"
         },
@@ -134,7 +134,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "BRAND CAMPAIGN & PRODUCT WEBSITES",
           desc: "A collection of responsive websites and campaigns including Yamaha Revzone, Moveek, Innolux Footwear, NgayDauTien, TuongAn minigame, and Daikin minigame. Converted Figma, Sketch, and Adobe XD designs into semantic interfaces, customized WordPress CMS solutions, optimized assets, implemented SEO and tracking, and delivered smooth UI animations.",
           tech: ["Wordpress", "PHP", "MySQL", "HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript", "JQuery", "Ajax"],
-          image: "public/projects/origin-campaign-sites.png",
+          image: "/projects/origin-campaign-sites.png",
           demo: "#",
           github: "#"
         }
@@ -247,7 +247,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "RADANHADAT - NỀN TẢNG PROPTECH",
           desc: "Nền tảng đăng tin bất động sản cho phép người dùng đăng, tìm kiếm và quản lý tin mua bán, cho thuê. Xây dựng kiến trúc monorepo cho planning map, hệ thống component tái sử dụng, tracking hành vi người dùng, AI phân tích tin đăng, thanh toán VNPT ePay, công cụ tính toán tài chính và tối ưu hiệu năng frontend.",
           tech: ["Vue.js", "Nuxt", "React", "TypeScript", "Pinia", "Redux Toolkit", "Tailwind CSS", "Shadcn UI", "ChartJS", "Sentry"],
-          image: "public/projects/radanhadat.png",
+          image: "/projects/radanhadat.png",
           demo: "#",
           github: "#"
         },
@@ -256,7 +256,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "BUHO - HỆ THỐNG POS NHÀ HÀNG",
           desc: "Hệ thống POS và quản lý nhà hàng phục vụ quản lý đơn hàng, lịch bàn, thanh toán, giao hàng và theo dõi hiệu quả kinh doanh. Phát triển UI component tái sử dụng, realtime bằng Socket.IO, tích hợp WhatsApp, push notification, đa ngôn ngữ, Stripe payment, Google Maps và cải thiện bảo mật frontend.",
           tech: ["Vue 2", "Vue 3", "Vuex", "JavaScript", "SCSS", "Socket.IO", "Stripe", "Google Maps", "ChartJS", "LogRocket"],
-          image: "public/projects/buho.png",
+          image: "/projects/buho.png",
           demo: "#",
           github: "#"
         },
@@ -265,7 +265,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "TESTMASTER - ỨNG DỤNG LUYỆN THI",
           desc: "Nền tảng luyện thi và quản lý bài test ngôn ngữ, hỗ trợ tạo đề, quản lý nội dung thi, theo dõi tiến độ và mô phỏng trải nghiệm làm bài. Phát triển giao diện responsive từ Figma, phối hợp với backend xây dựng tính năng quản lý bài thi, bảo trì, sửa lỗi và cải tiến tính năng.",
           tech: ["PHP", "Laravel", "JavaScript", "HTML5", "SCSS", "Bootstrap", "Ajax", "JQuery", "MySQL"],
-          image: "public/projects/testmaster.png",
+          image: "/projects/testmaster.png",
           demo: "#",
           github: "#"
         },
@@ -274,7 +274,7 @@ export const translations: Record<Language, Record<string, any>> = {
           title: "WEBSITE SẢN PHẨM & CAMPAIGN THƯƠNG HIỆU",
           desc: "Nhóm website và campaign gồm Yamaha Revzone, Moveek, Innolux Footwear, NgayDauTien, TuongAn minigame và Daikin minigame. Chuyển thiết kế từ Figma, Sketch, Adobe XD thành giao diện semantic responsive, tùy biến WordPress CMS, tối ưu asset, triển khai SEO/tracking và hiệu ứng UI mượt.",
           tech: ["Wordpress", "PHP", "MySQL", "HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript", "JQuery", "Ajax"],
-          image: "public/projects/origin-campaign-sites.png",
+          image: "/projects/origin-campaign-sites.png",
           demo: "#",
           github: "#"
         }
