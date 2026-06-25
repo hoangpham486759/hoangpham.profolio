@@ -79,7 +79,7 @@ export default function Projects() {
               {/* Card Image Cover with overlay zoom */}
               <div className="relative h-56 md:h-64 w-full bg-neutral-950 overflow-hidden border-b border-neutral-800/60">
                 <Image
-                  src={p.image}
+                  src={`${process.env.__NEXT_ROUTER_BASEPATH || ''}${p.image}`}
                   alt={p.title}
                   fill
                   sizes="(max-w-768px) 100vw, 50vw"
