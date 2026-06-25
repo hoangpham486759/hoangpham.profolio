@@ -38,9 +38,9 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, label: 'GITHUB', url: 'https://github.com' },
-    { icon: <Linkedin className="w-5 h-5" />, label: 'LINKEDIN', url: 'https://linkedin.com' },
-    { icon: <Mail className="w-5 h-5" />, label: 'EMAIL', url: 'mailto:neou486@gmail.com' }
+    { icon: <Github className="w-5 h-5" />, label: 'GITHUB', url: 'https://hoangpham486759.github.io/hoangpham.profolio' },
+    { icon: <Linkedin className="w-5 h-5" />, label: 'LINKEDIN', url: 'https://www.linkedin.com/in/hoangpham486759' },
+    { icon: <Mail className="w-5 h-5" />, label: 'EMAIL', url: 'mailto:hoangpham486759@gmail.com' }
   ];
 
   return (

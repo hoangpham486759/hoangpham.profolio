@@ -219,8 +219,8 @@ export default function Hero() {
               <div className="font-mono text-xs text-emerald-400/80 leading-relaxed text-left max-w-full">
                 <span className="text-pink-500">const</span> engineer = &#123;<br />
                 &nbsp;&nbsp;name: <span className="text-cyan-300">&quot;Huy Hoang&quot;</span>,<br />
-                &nbsp;&nbsp;role: <span className="text-cyan-300">&quot;Frontend Software&quot;</span>,<br />
-                &nbsp;&nbsp;skills: [<span className="text-amber-300">&quot;React&quot;, &quot;Next.js&quot;, &quot;Vue&quot;, &quot;TS&quot;</span>],<br />
+                &nbsp;&nbsp;role: <span className="text-cyan-300">&quot;Software Engineer&quot;</span>,<br />
+                &nbsp;&nbsp;skills: [<span className="text-amber-300">&quot;React&quot;, &quot;Next.js&quot;, &quot;Vue&quot;, &quot;Nuxt&quot;, &quot;TypeScript&quot;</span>],<br />
                 &nbsp;&nbsp;speed: <span className="text-purple-400">100</span><br />
                 &#125;;
               </div>

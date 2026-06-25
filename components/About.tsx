@@ -13,7 +13,7 @@ export default function About() {
   useEffect(() => {
     let active = true;
     const animateStats = () => {
-      const targets = { exp: 5, proj: 35, coffee: 840, clients: 20 };
+      const targets = { exp: 7, proj: 35, coffee: 840, clients: 20 };
       const steps = 60;
       let step = 0;
 
@@ -53,20 +53,37 @@ export default function About() {
 
   const skillCategories = [
     {
-      title: 'LANGUAGES',
-      skills: ['TypeScript', 'JavaScript (ES6+)', 'HTML5 / CSS3', 'Sass', 'Node.js']
+      title: 'FRONTEND',
+      skills: [
+        'JavaScript',
+        'JQuery',
+        'SCSS',
+        'Bootstrap',
+        'Nuxt.js',
+        'Element Plus / MUI / Vuetify',
+        'NextJS',
+        'ReactJS',
+        'Typescript',
+        'VueJS',
+        'Vuex / Pinia / Zustand / Redux',
+        'Storybook',
+        'React Query / TanStack Query',
+        'TailwindCSS',
+        'GSAP',
+      ]
     },
     {
-      title: 'FRAMEWORKS & LIBS',
-      skills: ['React', 'Next.js 14/15', 'Vue.js 3', 'Nuxt 3', 'Express']
+      title: 'BACKEND & DATABASE',
+      skills: ['MySQL', 'PHP', 'Wordpress']
     },
     {
-      title: 'STATE & DATA',
-      skills: ['Redux Toolkit', 'Pinia', 'Context API', 'GraphQL', 'RESTful APIs']
-    },
-    {
-      title: 'MOTION & INTERACTIVITY',
-      skills: ['GSAP (GreenSock)', 'Framer Motion', 'Tailwind CSS v4', 'Three.js']
+      title: 'TOOLS & WORKFLOW',
+      skills: [
+        'Figma / Photoshop / Adobe XD / Sketch',
+        'CI/CD',
+        'Jira',
+        'Scrum'
+      ]
     }
   ];
 

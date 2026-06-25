@@ -39,8 +39,8 @@ export const translations: Record<Language, Record<string, any>> = {
     about: {
       title: "SYSTEM_INFO // HUY HOANG",
       subtitle: "FRONTEND CYBERNETICS SPECIALIST",
-      p1: "A passionate Software Engineer with over 5 years of experience architecting high-performance client-side architectures. I thrive at the intersection of pixel-perfect precision and high-performance engineering.",
-      p2: "My mission is to eliminate lag, optimize core web vitals, and craft breathtaking interactive interfaces that leave a lasting impression. No cookie-cutter designs, just pure crafted digital art.",
+      p1: "Frontend Developer with 7+ years of experience building modern web applications using TypeScript, React.js, and Vue.js. Experienced in developing scalable SaaS, CRM, marketplace, and business management systems.",
+      p2: "Strong focus on frontend architecture, performance optimization, and user experience, with hands-on experience in mentoring, code reviews, and building maintainable frontend systems.",
       stats: {
         experience: "YRS OF EXPERIENCE",
         projects: "PROJECTS DEPLOYED",
@@ -75,28 +75,22 @@ export const translations: Record<Language, Record<string, any>> = {
       present: "PRESENT",
       jobs: [
         {
-          role: "Senior Frontend Engineer / Tech Lead",
-          company: "Nexus Tech Solutions",
-          period: "2024 - Present",
-          desc: "Leading a team of 6 engineers building an advanced SaaS data platform. Overhauled the rendering engine in Nuxt 3, speeding up load times by 42%. Established strict TS type safety protocols."
+          role: "Senior Frontend Developer",
+          company: "MC Urban Development Vietnam (Mitsubishi Corporation subsidiary)",
+          period: "05/2024 - 03/2026",
+          desc: "Built Radanhadat, a PropTech real estate platform, with monorepo architecture, scalable component systems, Storybook, analytics tracking, AI-powered listing analysis, VNPT ePay integration, financial calculation tools, and frontend performance improvements. Mentored junior developers through code reviews and technical guidance."
         },
         {
-          role: "Frontend Engineer Specialists",
-          company: "Cyberspace Agency",
-          period: "2022 - 2024",
-          desc: "Created highly interactive marketing campaigns and complex 3D dashboards for global enterprise clients using React, GSAP, and Three.js. Standardized components saving 30+ development hours per project."
+          role: "Middle Frontend Developer",
+          company: "THE COLLECTIVEC GROUP",
+          period: "01/2022 - 05/2024",
+          desc: "Developed Buho, a restaurant POS and management system for order handling, table scheduling, payment workflows, delivery tracking, and business reporting. Built reusable UI components, real-time Socket.IO features, WhatsApp integration, push notifications, multilingual support, Stripe payments, Google Maps delivery flows, and frontend security improvements."
         },
         {
-          role: "Web Application Developer",
-          company: "Sota Software",
-          period: "2021 - 2022",
-          desc: "Architected modern responsive SPAs with Vue.js, Tailwind CSS, and Vuex. Collaborated with UI designers to implement pixel-perfect layouts and robust form handling integrations."
-        },
-        {
-          role: "Junior Frontend Developer",
-          company: "Alpha Digital",
-          period: "2020 - 2021",
-          desc: "Developed responsive websites, optimized layouts, and automated email campaign systems using Javascript, React, and Sass. Coordinated closely with backend team for RESTful API connections."
+          role: "Web Developer",
+          company: "ORIGIN AGENCY CO., LTD",
+          period: "03/2017 - 12/2021",
+          desc: "Delivered Testmaster and multiple campaign/product websites including Yamaha Revzone, Moveek, Innolux Footwear, NgayDauTien, TuongAn, and Daikin. Converted Figma, Sketch, and Adobe XD designs into responsive interfaces, built WordPress and PHP features, supported Laravel test management flows, optimized performance, implemented SEO and tracking, and collaborated with designers and backend teams."
         }
       ]
     },
@@ -109,40 +103,40 @@ export const translations: Record<Language, Record<string, any>> = {
       featured: "FEATURED DEPLOYMENTS",
       items: [
         {
-          id: "cyber-dash",
-          title: "NEO-TOKYO DASHBOARD",
-          desc: "A futuristic real-time metrics visualizer with heavy WebGL grid aesthetics, audio synthesis, and interactive widgets. Highly optimized for high-refresh-rate displays.",
-          tech: ["React", "Next.js", "GSAP", "Tailwind CSS"],
-          image: "https://picsum.photos/seed/cyberdash/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "radanhadat",
+          title: "RADANHADAT - PROPTECH PLATFORM",
+          desc: "A real estate listing platform for posting, searching, and managing property listings for buying and renting. Built planning map monorepo architecture, reusable component systems, analytics tracking, AI-powered listing analysis, VNPT ePay payments, financial calculators, and performance-focused frontend improvements.",
+          tech: ["Vue.js", "Nuxt", "React", "TypeScript", "Pinia", "Redux Toolkit", "Tailwind CSS", "Shadcn UI", "ChartJS", "Sentry"],
+          image: "/projects/radanhadat.png",
+          demo: "#",
+          github: "#"
         },
         {
-          id: "nuxt-ecommerce",
-          title: "QUANTUM COMMERCE ENGINE",
-          desc: "A lightning-fast, SSR-powered storefront. Integrates state management, dynamic checkout pipelines, and complex localized multi-currency filters.",
-          tech: ["Nuxt", "Vue 3", "Pinia", "Tailwind CSS"],
-          image: "https://picsum.photos/seed/quantumecom/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "buho-pos",
+          title: "BUHO - RESTAURANT POS SYSTEM",
+          desc: "A restaurant management and POS system for order management, table scheduling, payment processing, delivery workflows, and business performance tracking. Delivered reusable UI components, Socket.IO real-time features, WhatsApp messaging, push notifications, multilingual support, Stripe payments, Google Maps integration, and frontend security improvements.",
+          tech: ["Vue 2", "Vue 3", "Vuex", "JavaScript", "SCSS", "Socket.IO", "Stripe", "Google Maps", "ChartJS", "LogRocket"],
+          image: "/projects/buho.png",
+          demo: "#",
+          github: "#"
         },
         {
-          id: "motion-canvas",
-          title: "GRAVITY VECTOR CANVAS",
-          desc: "An experimental 2D/3D physics-based interactive layout designed to showcase micro-animations, custom shaders, and responsive mouse gestures.",
-          tech: ["TypeScript", "GSAP", "HTML5 Canvas"],
-          image: "https://picsum.photos/seed/gravityvector/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "testmaster",
+          title: "TESTMASTER - TEST PREP APPS",
+          desc: "A language proficiency test preparation and test management platform. Built responsive interfaces from Figma designs, collaborated on exam creation and management features, and supported maintenance, bug fixing, and feature enhancements for stable test-taking workflows.",
+          tech: ["PHP", "Laravel", "JavaScript", "HTML5", "SCSS", "Bootstrap", "Ajax", "JQuery", "MySQL"],
+          image: "/projects/testmaster.png",
+          demo: "#",
+          github: "#"
         },
         {
-          id: "saas-analytics",
-          title: "SYNAPSE DATA TERMINAL",
-          desc: "Enterprise intelligence panel featuring rich custom charts, instant multi-tier filtering, secure OAuth gatekeeping, and heavy-duty data sheets.",
-          tech: ["Next.js", "TypeScript", "Recharts", "Shadcn UI"],
-          image: "https://picsum.photos/seed/synapsedata/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "origin-campaign-sites",
+          title: "BRAND CAMPAIGN & PRODUCT WEBSITES",
+          desc: "A collection of responsive websites and campaigns including Yamaha Revzone, Moveek, Innolux Footwear, NgayDauTien, TuongAn minigame, and Daikin minigame. Converted Figma, Sketch, and Adobe XD designs into semantic interfaces, customized WordPress CMS solutions, optimized assets, implemented SEO and tracking, and delivered smooth UI animations.",
+          tech: ["Wordpress", "PHP", "MySQL", "HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript", "JQuery", "Ajax"],
+          image: "/projects/origin-campaign-sites.png",
+          demo: "#",
+          github: "#"
         }
       ]
     },
@@ -185,8 +179,8 @@ export const translations: Record<Language, Record<string, any>> = {
     about: {
       title: "THÔNG_TIN // HUY HOÀNG",
       subtitle: "CHUYÊN GIA CÔNG NGHỆ FRONTEND",
-      p1: "Một kỹ sư phần mềm tràn đầy nhiệt huyết với hơn 5 năm kinh nghiệm xây dựng các kiến trúc giao diện hiệu năng cao. Tôi hoạt động tại điểm giao thoa giữa độ chính xác tuyệt đối (pixel-perfect) và tối ưu hóa hệ thống.",
-      p2: "Sứ mệnh của tôi là loại bỏ độ trễ, tối ưu hóa các chỉ số Core Web Vitals và thiết kế các giao diện tương tác đỉnh cao, để lại ấn tượng sâu sắc. Không rập khuôn, chỉ có nghệ thuật số được mài dũa công phu.",
+      p1: "Frontend Developer với hơn 7 năm kinh nghiệm xây dựng các ứng dụng web hiện đại bằng TypeScript, React.js và Vue.js. Có kinh nghiệm phát triển các hệ thống SaaS, CRM, marketplace và quản lý doanh nghiệp có khả năng mở rộng.",
+      p2: "Tập trung mạnh vào kiến trúc frontend, tối ưu hiệu năng và trải nghiệm người dùng, cùng kinh nghiệm mentor, code review và xây dựng các hệ thống frontend dễ bảo trì.",
       stats: {
         experience: "NĂM KINH NGHIỆM",
         projects: "DỰ ÁN ĐÃ TRIỂN KHAI",
@@ -221,28 +215,22 @@ export const translations: Record<Language, Record<string, any>> = {
       present: "HIỆN TẠI",
       jobs: [
         {
-          role: "Kỹ Sư Frontend Cấp Cao / Tech Lead",
-          company: "Nexus Tech Solutions",
-          period: "2024 - Hiện tại",
-          desc: "Dẫn dắt đội ngũ 6 kỹ sư xây dựng nền tảng SaaS phân tích dữ liệu lớn. Tái cấu trúc công cụ hiển thị bằng Nuxt 3, tăng 42% tốc độ tải trang. Thiết lập các giao thức an toàn kiểu dữ liệu TypeScript nghiêm ngặt."
+          role: "Senior Frontend Developer",
+          company: "MC Urban Development Vietnam (Mitsubishi Corporation subsidiary)",
+          period: "05/2024 - 03/2026",
+          desc: "Phát triển Radanhadat, nền tảng PropTech cho bất động sản, với kiến trúc monorepo, hệ thống component tái sử dụng, Storybook, tracking hành vi người dùng, phân tích dữ liệu trên Grafana, tích hợp AI phân tích tin đăng, thanh toán VNPT ePay, công cụ tính toán tài chính và tối ưu hiệu năng frontend. Mentor junior developers thông qua code review và hướng dẫn kỹ thuật."
         },
         {
-          role: "Chuyên Gia Phát Triển Frontend",
-          company: "Cyberspace Agency",
-          period: "2022 - 2024",
-          desc: "Xây dựng các chiến dịch marketing tương tác cao và dashboard 3D phức tạp cho các khách hàng tập đoàn toàn cầu bằng React, GSAP, và Three.js. Chuẩn hóa thư viện component giúp tiết kiệm 30+ giờ phát triển mỗi dự án."
+          role: "Middle Frontend Developer",
+          company: "THE COLLECTIVEC GROUP",
+          period: "01/2022 - 05/2024",
+          desc: "Phát triển Buho, hệ thống POS và quản lý nhà hàng phục vụ quản lý đơn hàng, lịch bàn, thanh toán, giao hàng và báo cáo kinh doanh. Xây dựng UI component tái sử dụng, tính năng realtime bằng Socket.IO, tích hợp WhatsApp, push notification, đa ngôn ngữ, Stripe payment, Google Maps cho giao hàng, API với backend và các thực hành bảo mật frontend chống XSS/CSRF."
         },
         {
-          role: "Lập Trình Viên Ứng Dụng Web",
-          company: "Sota Software",
-          period: "2021 - 2022",
-          desc: "Kiến trúc các ứng dụng đơn trang (SPA) hiện đại sử dụng Vue.js, Tailwind CSS và Vuex. Cộng tác chặt chẽ với đội ngũ UI/UX để hiện thực hóa các bản thiết kế chuẩn xác tới từng pixel."
-        },
-        {
-          role: "Lập Trình Viên Frontend Sơ Cấp",
-          company: "Alpha Digital",
-          period: "2020 - 2021",
-          desc: "Xây dựng giao diện responsive, tối ưu hóa layout và tích hợp hệ thống gửi email tự động bằng Javascript, React, và Sass. Phối hợp với đội ngũ backend để tích hợp RESTful API mượt mà."
+          role: "Web Developer",
+          company: "ORIGIN AGENCY CO., LTD",
+          period: "03/2017 - 12/2021",
+          desc: "Triển khai Testmaster và nhiều website/campaign như Yamaha Revzone, Moveek, Innolux Footwear, NgayDauTien, TuongAn và Daikin. Chuyển thiết kế từ Figma, Sketch, Adobe XD thành giao diện responsive, xây dựng WordPress CMS và tính năng PHP, hỗ trợ luồng quản lý bài test bằng Laravel, tối ưu hiệu năng, triển khai SEO/tracking và phối hợp với designer, backend developer."
         }
       ]
     },
@@ -255,40 +243,40 @@ export const translations: Record<Language, Record<string, any>> = {
       featured: "DỰ ÁN TIÊU BIỂU",
       items: [
         {
-          id: "cyber-dash",
-          title: "DASHBOARD NEO-TOKYO",
-          desc: "Bảng điều khiển chỉ số tương lai thời gian thực với phong cách lưới WebGL, âm thanh tổng hợp và các widget tương tác. Tối ưu cực cao cho màn hình tần số quét lớn.",
-          tech: ["React", "Next.js", "GSAP", "Tailwind CSS"],
-          image: "https://picsum.photos/seed/cyberdash/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "radanhadat",
+          title: "RADANHADAT - NỀN TẢNG PROPTECH",
+          desc: "Nền tảng đăng tin bất động sản cho phép người dùng đăng, tìm kiếm và quản lý tin mua bán, cho thuê. Xây dựng kiến trúc monorepo cho planning map, hệ thống component tái sử dụng, tracking hành vi người dùng, AI phân tích tin đăng, thanh toán VNPT ePay, công cụ tính toán tài chính và tối ưu hiệu năng frontend.",
+          tech: ["Vue.js", "Nuxt", "React", "TypeScript", "Pinia", "Redux Toolkit", "Tailwind CSS", "Shadcn UI", "ChartJS", "Sentry"],
+          image: "/projects/radanhadat.png",
+          demo: "#",
+          github: "#"
         },
         {
-          id: "nuxt-ecommerce",
-          title: "CÔNG CỤ THƯƠNG MẠI QUANTUM",
-          desc: "Trang thương mại điện tử siêu nhanh được render phía server (SSR). Tích hợp quản lý giỏ hàng, quy trình thanh toán động và bộ lọc đa tiền tệ bản địa hóa phức tạp.",
-          tech: ["Nuxt", "Vue 3", "Pinia", "Tailwind CSS"],
-          image: "https://picsum.photos/seed/quantumecom/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "buho-pos",
+          title: "BUHO - HỆ THỐNG POS NHÀ HÀNG",
+          desc: "Hệ thống POS và quản lý nhà hàng phục vụ quản lý đơn hàng, lịch bàn, thanh toán, giao hàng và theo dõi hiệu quả kinh doanh. Phát triển UI component tái sử dụng, realtime bằng Socket.IO, tích hợp WhatsApp, push notification, đa ngôn ngữ, Stripe payment, Google Maps và cải thiện bảo mật frontend.",
+          tech: ["Vue 2", "Vue 3", "Vuex", "JavaScript", "SCSS", "Socket.IO", "Stripe", "Google Maps", "ChartJS", "LogRocket"],
+          image: "/projects/buho.png",
+          demo: "#",
+          github: "#"
         },
         {
-          id: "motion-canvas",
-          title: "BẢN VẼ TRỌNG LỰC VECTOR",
-          desc: "Giao diện thử nghiệm tương tác dựa trên vật lý 2D/3D, được thiết kế để trình diễn các vi chuyển động, shader tùy chỉnh và cử chỉ chuột phản hồi nhanh chóng.",
-          tech: ["TypeScript", "GSAP", "HTML5 Canvas"],
-          image: "https://picsum.photos/seed/gravityvector/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "testmaster",
+          title: "TESTMASTER - ỨNG DỤNG LUYỆN THI",
+          desc: "Nền tảng luyện thi và quản lý bài test ngôn ngữ, hỗ trợ tạo đề, quản lý nội dung thi, theo dõi tiến độ và mô phỏng trải nghiệm làm bài. Phát triển giao diện responsive từ Figma, phối hợp với backend xây dựng tính năng quản lý bài thi, bảo trì, sửa lỗi và cải tiến tính năng.",
+          tech: ["PHP", "Laravel", "JavaScript", "HTML5", "SCSS", "Bootstrap", "Ajax", "JQuery", "MySQL"],
+          image: "/projects/testmaster.png",
+          demo: "#",
+          github: "#"
         },
         {
-          id: "saas-analytics",
-          title: "CỔNG DỮ LIỆU THẦN KINH SYNAPSE",
-          desc: "Bảng phân tích thông tin doanh nghiệp sở hữu các biểu đồ tùy chỉnh phong phú, bộ lọc phân tầng tức thì, bảo mật OAuth và hệ thống bảng dữ liệu tải trọng lớn.",
-          tech: ["Next.js", "TypeScript", "Recharts", "Shadcn UI"],
-          image: "https://picsum.photos/seed/synapsedata/800/500",
-          demo: "https://example.com",
-          github: "https://github.com"
+          id: "origin-campaign-sites",
+          title: "WEBSITE SẢN PHẨM & CAMPAIGN THƯƠNG HIỆU",
+          desc: "Nhóm website và campaign gồm Yamaha Revzone, Moveek, Innolux Footwear, NgayDauTien, TuongAn minigame và Daikin minigame. Chuyển thiết kế từ Figma, Sketch, Adobe XD thành giao diện semantic responsive, tùy biến WordPress CMS, tối ưu asset, triển khai SEO/tracking và hiệu ứng UI mượt.",
+          tech: ["Wordpress", "PHP", "MySQL", "HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript", "JQuery", "Ajax"],
+          image: "/projects/origin-campaign-sites.png",
+          demo: "#",
+          github: "#"
         }
       ]
     },

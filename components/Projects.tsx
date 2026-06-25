@@ -22,7 +22,7 @@ export default function Projects() {
   const projects = t('projects.items') as ProjectType[];
 
   // Dynamic filter tags extraction
-  const filters = ['ALL', 'React', 'Next.js', 'Nuxt', 'GSAP', 'TypeScript'];
+  const filters = ['ALL', 'Vue', 'Nuxt', 'React', 'TypeScript', 'PHP'];
 
   const filteredProjects = activeFilter === 'ALL'
     ? projects
@@ -119,28 +119,6 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  {/* Actions Link panel */}
-                  <div className="flex items-center gap-4 border-t border-neutral-800/60 pt-4">
-                    <a
-                      href={p.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 font-mono text-xs text-cyan-400 hover:text-cyan-300 hover:neon-text-cyan transition-all"
-                    >
-                      <ExternalLink className="w-3.5 h-3.5" />
-                      <span>{t('projects.visit_demo')}</span>
-                    </a>
-
-                    <a
-                      href={p.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 font-mono text-xs text-neutral-400 hover:text-white transition-colors ml-4"
-                    >
-                      <Github className="w-3.5 h-3.5" />
-                      <span>{t('projects.github')}</span>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
